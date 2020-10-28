@@ -29,7 +29,7 @@ namespace Atm.Class
         {
             Owner = name;
             //Balance = number;
-            MakeDeposit(number, DateTime.Now, "Initial Balance");
+            MakeDeposit(number, DateTime.Now, "Initial Balance"); 
             Number = accountNumberSeed.ToString();
             accountNumberSeed++;
         }
@@ -56,6 +56,18 @@ namespace Atm.Class
             }
             var withdrawal = new Transaction(-amount, date, note);
             allTransaction.Add(withdrawal);
+        }
+
+        public string GetAccuntHistory()
+        {
+            var report = new StringBuilder();
+
+            report.Append("Date\t\t\tAmount\tNote");
+            foreach (var item in allTransaction)
+            {
+                report.AppendLine($"{item.Date}\t{item.Amount}\t{item.Notes}");
+            }
+            return report.ToString();
         }
     }
 }
