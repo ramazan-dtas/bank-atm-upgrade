@@ -1,0 +1,6 @@
+C:\Users\rade\Desktop\bank-atm-upgrade\Atm\Atm\bin\Debug\Atm.exe.config
+C:\Users\rade\Desktop\bank-atm-upgrade\Atm\Atm\bin\Debug\Atm.exe
+C:\Users\rade\Desktop\bank-atm-upgrade\Atm\Atm\bin\Debug\Atm.pdb
+C:\Users\rade\Desktop\bank-atm-upgrade\Atm\Atm\obj\Debug\Atm.csprojAssemblyReference.cache
+C:\Users\rade\Desktop\bank-atm-upgrade\Atm\Atm\obj\Debug\Atm.exe
+C:\Users\rade\Desktop\bank-atm-upgrade\Atm\Atm\obj\Debug\Atm.pdb
